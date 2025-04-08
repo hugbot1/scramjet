@@ -26,6 +26,9 @@ importers:
       parse-domain:
         specifier: ^8.2.2
         version: 8.2.2
+      pnpm:
+        specifier: ^10.8.0
+        version: 10.8.0
       set-cookie-parser:
         specifier: ^2.7.1
         version: 2.7.1
@@ -1920,6 +1923,11 @@ packages:
   playwright@1.51.1:
     resolution: {integrity: sha512-kkx+MB2KQRkyxjYPc3a0wLZZoDczmppyGJIvQ43l+aZihkaVvmu/21kiyaHeHjiFxjxNNFnUncKmcGIyOojsaw==}
     engines: {node: '>=18'}
+    hasBin: true
+
+  pnpm@10.8.0:
+    resolution: {integrity: sha512-DoJxTRtbQ8dGEBk8sgc0iXwdAN6J0OGEIK68WXf6E9eAqcsFc0Yk6B69gcyHbNRkeUhQZBxIuVRDJrViLKKZcQ==}
+    engines: {node: '>=18.12'}
     hasBin: true
 
   prelude-ls@1.2.1:
@@ -4501,6 +4509,8 @@ snapshots:
       playwright-core: 1.51.1
     optionalDependencies:
       fsevents: 2.3.2
+
+  pnpm@10.8.0: {}
 
   prelude-ls@1.2.1: {}
 
