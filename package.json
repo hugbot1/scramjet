@@ -65,6 +65,7 @@
 		"domutils": "^3.2.2",
 		"htmlparser2": "10.0.0",
 		"parse-domain": "^8.2.2",
+		"pnpm": "^10.8.0",
 		"set-cookie-parser": "^2.7.1"
 	}
 }
